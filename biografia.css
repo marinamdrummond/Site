@@ -33,11 +33,14 @@ body {
   height: 1000px;
   }
 .contentor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+display: flex;
+justify-content: center;
+align-items: center; 
+width: auto;
+height: auto;
 }
+
+
 .fotogrupo{
 display: flex;
 justify-content: center;
@@ -46,10 +49,31 @@ width:1200px;
 height: auto;
   } 
 
+
 .descri{
     color: white;
     font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+
+
+.integrante-img {
+  width: 100%; /* Faz a imagem preencher a largura do container */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Ajusta o conteúdo caso a proporção não combine */
+  border-radius: 10px; /* Deixa as bordas levemente arredondadas (opcional) */
+} 
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Espaça as colunas de maneira uniforme */
+  align-items: center; /* Alinha verticalmente as imagens */
+}
+
+.col {
+  padding: 5px; /* Adiciona espaçamento entre as colunas */
+} 
 
   
