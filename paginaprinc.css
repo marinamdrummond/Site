@@ -1,0 +1,76 @@
+/* Estilo global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Cabeçalho ocupa toda a tela */
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Vídeo de fundo */
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Conteúdo do cabeçalho */
+.contentor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.logobio {
+    width: 300px; /* Ajuste conforme necessário */
+    margin-bottom: 20px;
+}
+
+/* Estilo para a barra de navegação */
+nav ul {
+    display: flex;
+    justify-content: center; /* Centraliza os itens */
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 50px;
+    padding: 0;
+}
+
+/* Itens da navegação */
+nav ul li {
+    margin: 0 50px; /* Espaçamento entre os itens */
+}
+
+/* Links da navegação */
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Define a cor do texto */
+    font-size: 2rem; /* Aumenta o tamanho da fonte */
+    letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+    font-weight: bold; /* Destaca o texto */
+    transition: color 0.3s ease; /* Efeito de transição ao passar o mouse */
+}
+
+/* Efeito hover */
+nav ul li a:hover {
+    color: #f0a500; /* Cor ao passar o mouse */
+}
+
+
+.slogan{
+    color: black;
+    font-weight: 
+}
