@@ -24,6 +24,32 @@ header {
     z-index: -1;
 }
 
+.social-links {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Distância da borda esquerda */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1; /* Garante que os ícones fiquem sobre o vídeo */
+}
+
+.social-icon {
+    margin: 10px 0;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito hover nos ícones */
+.social-icon:hover img {
+    transform: scale(1.2); /* Aumenta os ícones ao passar o mouse */
+}
+
 /* Conteúdo do cabeçalho */
 .contentor {
     position: absolute;
@@ -32,13 +58,20 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem; 
 }
 
 .logobio {
-    width: 300px; /* Ajuste conforme necessário */
-    margin-bottom: 20px;
+    width: 500px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
+
+.logobio:hover {
+    transform: scale(1.1) !important;
+    filter: drop-shadow(0 0 10px #f0a500) !important;
+}
+
+
 
 /* Estilo para a barra de navegação */
 nav ul {
@@ -67,10 +100,4 @@ nav ul li a {
 /* Efeito hover */
 nav ul li a:hover {
     color: #f0a500; /* Cor ao passar o mouse */
-}
-
-
-.slogan{
-    color: black;
-    font-weight: 
 }
