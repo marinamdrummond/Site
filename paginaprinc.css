@@ -43,6 +43,7 @@ header {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
+    filter: invert(1);
 }
 
 /* Efeito hover nos ícones */
@@ -62,7 +63,7 @@ header {
 }
 
 .logobio {
-    width: 500px;
+    width: 450px;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
